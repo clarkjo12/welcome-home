@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.landing {
+  background: url("./images/WHproofbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  object-fit: contain;
+}
+/* @media only screen and (max-width: 1776px) {
+  .landing {
+    height: 120vw;
+  }
+} */
+
+.cabin-background {
+}
+
+.welcome {
+  font-size: 5vw;
+}
+
+.second-base {
+  height: 100em;
+  background-color: #957274;
+}
