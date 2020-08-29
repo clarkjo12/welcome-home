@@ -2,12 +2,26 @@
   text-align: center;
 }
 
+/* FONT & COLORS */
+.mont-reg {
+  font-family: Montserrat-Regular;
+  color: #ffffff;
+}
+.mont-bold {
+  font-family: Montserrat-Bold;
+  color: #ffffff;
+}
+
+.shadow {
+  text-shadow: 2px 2px #445953;
+}
+
 .landing {
   background: url("./images/WHproofbackground.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 95vh;
-  object-fit: contain;
+  height: calc(0.664 * 100vw);
+  text-align: right;
 }
 /* @media only screen and (max-width: 1776px) {
   .landing {
@@ -15,11 +29,31 @@
   }
 } */
 
-.cabin-background {
+.landing-text {
+  height: calc(0.664 * 100vw);
+  display: flex;
+  flex-direction: column;
 }
 
 .welcome {
   font-size: 5vw;
+  margin-top: 2em;
+  margin-right: 1.3em;
+}
+
+.welcome2 {
+  font-size: 4vw;
+  margin-right: 2em;
+  margin-top: 0.1em;
+}
+
+.intro-para {
+  font-size: 3.5vw;
+  width: 40vw;
+  margin-left: 50vw;
+  margin-top: 4em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
 }
 
 .second-base {
