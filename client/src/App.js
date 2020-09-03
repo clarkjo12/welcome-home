@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import HouseCard from "./components/HouseCard";
+import Steps from "./components/Steps";
 
 function App() {
   return (
@@ -16,7 +18,16 @@ function App() {
         </div>
       </div>
 
-      <div className="second-base">hello</div>
+      <div className="second-base">
+        <p className="current-home-text mont-bold shadow">
+          Current Homes Available
+        </p>
+        <HouseCard />
+        <HouseCard />
+        <HouseCard />
+        <div className="second-base-bottom"></div>
+      </div>
+      <Steps />
     </div>
   );
 }
