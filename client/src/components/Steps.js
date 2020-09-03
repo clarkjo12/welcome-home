@@ -1,5 +1,7 @@
 import React from "react";
-import flags from "../images/flags.png";
+import flag from "../images/trimmedflag.png";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Steps extends React.PureComponent {
   render() {
@@ -72,22 +74,37 @@ export default class Steps extends React.PureComponent {
         </div>
         {/* STEP 4 */}
         <div className="step4">
-          <div className="step-main">
-            <div className="step-title mont-bold shadow"> Copy of Valid ID</div>
+          <div>
+            <img className="left-flag" src={flag} />
+          </div>
+          <div className="step-main4">
+            <div className="step-title4 mont-bold shadow"> And That's All!</div>
             <div className="step-body mont-reg">
               <p>
-                Whether it's a Drivers License, Passport or Greencard even; We
-                dont care, as long as it's Valid.
+                After completing application, feel free to email copies of Valid
+                ID(s) and Proof of Funds along with it as well.
               </p>
               <br />
               <p>
-                Fun Fact - If you're married, everything you purchase is
-                automatically half your spouses; so include them as well!
+                Normally it can take 7-10 business days to get all the paperwork
+                ready. But after contracts are signed and notarized, you can
+                move in immediately!
               </p>
             </div>
           </div>
-          <img className="flags" src={flags} />
+          <div>
+            <img className="right-flag" src={flag} />
+          </div>
         </div>
+        <div className="line"></div>
+        <a
+          className="fb-a-link"
+          href="https://www.facebook.com/Supreme-Forestry-102873441360721/"
+        >
+          <div className="fb-icon">
+            <FontAwesomeIcon icon={faFacebook} size="3x" />
+          </div>
+        </a>
       </div>
     );
   }
