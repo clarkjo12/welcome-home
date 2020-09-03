@@ -37,26 +37,178 @@
 
 .welcome {
   font-size: 5vw;
-  margin-top: 2em;
+  margin-top: 1.6em;
   margin-right: 1.3em;
 }
 
 .welcome2 {
   font-size: 4vw;
   margin-right: 2em;
-  margin-top: 0.1em;
+  margin-top: 0.2em;
 }
 
 .intro-para {
   font-size: 3.5vw;
   width: 40vw;
   margin-left: 50vw;
-  margin-top: 4em;
+  margin-top: 5em;
   padding-bottom: 0.1em;
   overflow: hidden;
 }
 
 .second-base {
-  height: 100em;
   background-color: #957274;
+}
+
+.current-home-text {
+  font-size: 5.7vw;
+  padding-top: 0.7em;
+}
+
+.slider {
+  margin: auto;
+  width: 80vw;
+  border: 0.4em solid #d8b765;
+  border-radius: 0.2em;
+}
+
+.main-house-card {
+  padding-top: 2em;
+}
+
+.house-address {
+  width: 80vw;
+  padding-top: 2em;
+  padding-bottom: 1.3em;
+  font-size: 4vw;
+  margin: auto;
+}
+
+.line {
+  border-bottom: solid 0.4em #d8b765;
+  width: 60vw;
+  margin: auto;
+}
+
+.second-base-bottom {
+  padding-top: 3em;
+}
+
+.house-descrip {
+  width: 80vw;
+  padding-top: 4em;
+  font-size: 2.7vw;
+  line-height: 1.3em;
+  margin: auto;
+}
+/* @media only screen and (min-width: 400px) {
+  .house-descrip {
+    padding-top: 10vw;
+  } */
+
+.main-steps {
+  padding-top: 0.2em;
+  background-color: #76a8b2;
+}
+
+.easy-steps {
+  padding-top: 1.7em;
+  font-size: 4.5vw;
+  padding-bottom: 1em;
+}
+
+.step1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-num {
+  background: #445953;
+  text-shadow: 6px 6px #76a8b2;
+  border-radius: 25vw;
+  width: 25vw;
+  height: 25vw;
+  font-size: 17vw;
+  line-height: 24vw;
+}
+.step-main {
+  width: 50vw;
+  padding: 4vw;
+  text-shadow: 2px 2px #445953;
+}
+
+.step-title {
+  font-size: 4vw;
+  padding-bottom: 3vw;
+}
+
+.step-body {
+  font-size: 2.5vw;
+  padding-bottom: 3vw;
+  line-height: 1.2em;
+}
+
+/* STEP 2 */
+
+.step2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8b765;
+}
+
+.step-num2 {
+  background: #957274;
+  text-shadow: 6px 6px #d8b765;
+  border-radius: 25vw;
+  width: 25vw;
+  height: 25vw;
+  font-size: 17vw;
+  line-height: 24vw;
+}
+
+/* STEP 3 */
+
+.step3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #445953;
+}
+
+.step-num3 {
+  background: #d8b765;
+  text-shadow: 6px 6px #445953;
+  border-radius: 25vw;
+  width: 25vw;
+  height: 25vw;
+  font-size: 17vw;
+  line-height: 24vw;
+}
+
+/* STEP 4 */
+
+.step4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #445953;
+  position: relative;
+}
+.flag-div {
+}
+
+.flags {
+  position: absolute;
+  width: 25vw;
+  z-index: +1;
+}
+
+.flag-circle {
+  position: absolute;
+  background: #46deb3;
+  border-radius: 25vw;
+  width: 25vw;
+  height: 25vw;
 }
