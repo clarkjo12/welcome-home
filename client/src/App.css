@@ -230,6 +230,10 @@
   overflow-x: hidden;
 }
 
+.single-flag {
+  width: 0vw;
+}
+
 .fb-a-link {
   text-decoration: none;
   color: inherit;
@@ -248,4 +252,186 @@
 .fb-icon:hover {
   color: #fff;
   cursor: pointer;
+}
+
+/* ===========================================
+Mobile
+=====================================================} */
+
+@media screen and (max-width: 500px) {
+  .welcome {
+    font-size: 6vw;
+    margin-top: 1.6em;
+    margin-right: 1.3em;
+  }
+
+  .welcome2 {
+    font-size: 5vw;
+    margin-right: 2em;
+    margin-top: 0.2em;
+  }
+
+  .intro-para {
+    font-size: 4.5vw;
+    width: 50vw;
+    margin-left: 45vw;
+    margin-top: 3em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  .current-home-text {
+    font-size: 6vw;
+    padding-top: 0.7em;
+  }
+
+  .house-address {
+    width: 80vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 7vw;
+    margin: auto;
+  }
+
+  .house-descrip {
+    width: 80vw;
+    padding-top: 4em;
+    font-size: 4vw;
+    line-height: 1.3em;
+    margin: auto;
+  }
+
+  .main-steps {
+    padding-top: 0.2em;
+    background-color: #76a8b2;
+  }
+
+  .easy-steps {
+    padding-top: 1.7em;
+    font-size: 4.5vw;
+    padding-bottom: 1em;
+  }
+
+  .step1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .step-num {
+    background: #445953;
+    text-shadow: 6px 6px #76a8b2;
+    border-radius: 25vw;
+    width: 25vw;
+    height: 25vw;
+    font-size: 17vw;
+    line-height: 24vw;
+    margin-top: 5vw;
+  }
+  .step-main {
+    width: 85vw;
+    padding: 4vw;
+  }
+
+  .step-title {
+    font-size: 6vw;
+    padding-bottom: 3vw;
+  }
+
+  .yel-shadow-title {
+    text-shadow: 2px 2px #957274;
+  }
+  .yel-shadow-body {
+    font-size: 3.5vw;
+    padding-bottom: 3vw;
+    line-height: 1.2em;
+    text-shadow: 1.5px 1.5px #957274;
+  }
+
+  .step-body {
+    font-size: 3.5vw;
+    padding-bottom: 3vw;
+    line-height: 1.2em;
+    text-shadow: 1.5px 1.5px #445953;
+  }
+
+  /* STEP 2 */
+
+  .step2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background: #d8b765;
+  }
+
+  .step-num2 {
+    background: #957274;
+    text-shadow: 6px 6px #d8b765;
+    border-radius: 25vw;
+    width: 25vw;
+    height: 25vw;
+    font-size: 17vw;
+    margin-top: 5vw;
+    line-height: 24vw;
+  }
+
+  /* STEP 3 */
+
+  .step3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #445953;
+  }
+
+  .step-num3 {
+    background: #d8b765;
+    text-shadow: 6px 6px #445953;
+    border-radius: 25vw;
+    width: 25vw;
+    height: 25vw;
+    font-size: 17vw;
+    line-height: 24vw;
+    margin-top: 5vw;
+  }
+
+  /* STEP 4 */
+
+  .step4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
+    align-items: center;
+    background: #76a8b2;
+    position: relative;
+    z-index: 99;
+  }
+
+  .step-main4 {
+    width: 85vw;
+    padding: 6vw;
+    text-shadow: 1.5px 1.5px #445953;
+    padding-bottom: 2vw;
+  }
+
+  .step-title4 {
+    font-size: 6vw;
+    padding-bottom: 3vw;
+  }
+
+  .left-flag {
+    width: 0vw;
+  }
+
+  .right-flag {
+    width: 0vw;
+    transform: rotatey(180deg);
+  }
+
+  .single-flag {
+    width: 30vw;
+    margin-top: 5vw;
+  }
 }

@@ -12,7 +12,7 @@ function App() {
           <p className="welcome2 mont-bold shadow">of North Carolina</p>
 
           <p className="intro-para mont-reg shadow">
-            Owner financed homes for as little at 10% down. Check out our
+            Owner financed homes for as little as 10% down. Check out our
             inventory below,
           </p>
         </div>
