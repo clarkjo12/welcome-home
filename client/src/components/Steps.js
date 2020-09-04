@@ -102,7 +102,7 @@ export default class Steps extends React.PureComponent {
         <div className="line"></div>
         <a
           className="fb-a-link"
-          href="https://www.facebook.com/Supreme-Forestry-102873441360721/"
+          href="https://www.facebook.com/welhomeprops"
         >
           <div className="fb-icon">
             <FontAwesomeIcon icon={faFacebook} size="3x" />
