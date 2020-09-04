@@ -135,7 +135,6 @@
 .step-main {
   width: 50vw;
   padding: 4vw;
-  text-shadow: 2px 2px #445953;
 }
 
 .step-title {
@@ -143,10 +142,21 @@
   padding-bottom: 3vw;
 }
 
+.yel-shadow-title {
+  text-shadow: 2px 2px #957274;
+}
+.yel-shadow-body {
+  font-size: 2.5vw;
+  padding-bottom: 3vw;
+  line-height: 1.2em;
+  text-shadow: 1.5px 1.5px #957274;
+}
+
 .step-body {
   font-size: 2.5vw;
   padding-bottom: 3vw;
   line-height: 1.2em;
+  text-shadow: 1.5px 1.5px #445953;
 }
 
 /* STEP 2 */
@@ -201,7 +211,7 @@
 .step-main4 {
   width: 50vw;
   padding: 6vw;
-  text-shadow: 2px 2px #445953;
+  text-shadow: 1.5px 1.5px #445953;
   padding-bottom: 2vw;
 }
 
@@ -226,7 +236,7 @@
 }
 
 .fb-icon {
-  color: rgb(58, 58, 58);
+  color: rgb(36, 36, 36);
   display: flex;
   align-items: center;
   justify-content: center;

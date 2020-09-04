@@ -57,8 +57,11 @@ export default class Steps extends React.PureComponent {
         <div className="step3">
           <div className="step-num3 mont-bold shadow">3</div>
           <div className="step-main">
-            <div className="step-title mont-bold shadow"> Proof of Funds</div>
-            <div className="step-body mont-reg">
+            <div className="step-title mont-bold yel-shadow-title">
+              {" "}
+              Proof of Funds
+            </div>
+            <div className=" mont-reg yel-shadow-body">
               <p>
                 {" "}
                 This is for us to confirm that you actually have the funds
