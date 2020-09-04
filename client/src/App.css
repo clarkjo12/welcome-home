@@ -63,6 +63,7 @@
 .current-home-text {
   font-size: 5.7vw;
   padding-top: 0.7em;
+  padding-bottom: 0.7em;
 }
 
 .slider {
@@ -78,7 +79,7 @@
 
 .house-address {
   width: 80vw;
-  padding-top: 2em;
+  padding-top: 1.3em;
   padding-bottom: 1.3em;
   font-size: 4vw;
   margin: auto;
@@ -96,8 +97,9 @@
 
 .house-descrip {
   width: 80vw;
-  padding-top: 4em;
-  font-size: 2.7vw;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  font-size: 2.5vw;
   line-height: 1.3em;
   margin: auto;
 }
@@ -290,11 +292,13 @@ Mobile
     padding-bottom: 1em;
     font-size: 7vw;
     margin: auto;
+    line-height: 1.1em;
   }
 
   .house-descrip {
     width: 80vw;
-    padding-top: 4em;
+    padding-top: 3.5em;
+    padding-bottom: 0.8em;
     font-size: 4vw;
     line-height: 1.3em;
     margin: auto;
