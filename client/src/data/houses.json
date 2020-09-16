@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "address": "2001 Newark ave. Fayetteville, NC",
+    "detail": "3 bed, 1 bath, some new carpet already put in,  Nice corner lot with fairly private driveway. Home needs few repairs such as window replaced; but all in pretty decent home."
+  },
+  {
+    "id": 2,
+    "address": "123 Seasme st. Wagram, NC",
+    "detail": "3 bed, 1 bath, Wagram",
+    "photos": {
+      "pic1": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/p720x720/118254093_3390957497591847_3153860993284461804_o.jpg?_nc_cat=106&_nc_sid=843cd7&_nc_ohc=G0Ke4l37aawAX8nBfnG&_nc_ht=scontent-iad3-1.xx&tp=6&oh=e0e18adf361bd291d803f71610a193c0&oe=5F783596",
+      "pic2": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/p720x720/118599637_3390957360925194_6771945604774112466_o.jpg?_nc_cat=100&_nc_sid=843cd7&_nc_ohc=mbRdBD-sHnUAX_VqXxG&_nc_ht=scontent-iad3-1.xx&tp=6&oh=d7a930ee13d837bd299b192f5e5645c9&oe=5F79117C"
+    }
+  }
+]
