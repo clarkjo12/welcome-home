@@ -324,7 +324,7 @@ Mobile
 
   .step-num {
     background: #445953;
-    text-shadow: 6px 6px #76a8b2;
+    text-shadow: 4px 4px #76a8b2;
     border-radius: 25vw;
     width: 25vw;
     height: 25vw;
@@ -349,14 +349,14 @@ Mobile
     font-size: 3.5vw;
     padding-bottom: 3vw;
     line-height: 1.2em;
-    text-shadow: 1.5px 1.5px #957274;
+    text-shadow: 1px 1px #957274;
   }
 
   .step-body {
     font-size: 3.5vw;
     padding-bottom: 3vw;
     line-height: 1.2em;
-    text-shadow: 1.5px 1.5px #445953;
+    text-shadow: 1px 1px #445953;
   }
 
   /* STEP 2 */
@@ -371,7 +371,7 @@ Mobile
 
   .step-num2 {
     background: #957274;
-    text-shadow: 6px 6px #d8b765;
+    text-shadow: 4px 4px #d8b765;
     border-radius: 25vw;
     width: 25vw;
     height: 25vw;
@@ -392,7 +392,7 @@ Mobile
 
   .step-num3 {
     background: #d8b765;
-    text-shadow: 6px 6px #445953;
+    text-shadow: 4px 4px #445953;
     border-radius: 25vw;
     width: 25vw;
     height: 25vw;
@@ -438,4 +438,96 @@ Mobile
     width: 30vw;
     margin-top: 5vw;
   }
+}
+/* 
+  TESTING +++++++++++++++++++++++++VVVVVVV */
+
+/* image grid styles */
+.img-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.img-wrap {
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  opacity: 0.8;
+}
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* ===================================
+ADMIN PAGE
+=================================== */
+
+.admin {
+  background: #76a8b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-title {
+  font-size: 3vw;
+  border-bottom: 0.2em solid #d8b765;
+  margin: 2em;
+}
+
+.album-card {
+  border: #d8b765 solid 0.2em;
+}
+
+.album-cover {
+  height: 25vw;
+  width: 25vw;
+  border: 0.2em solid #d8b765;
+}
+
+/* ALBUMS====================================== */
+
+.album {
+  width: 85vw;
+  border: 0.2em solid #d8b765;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.listing {
+  font-size: 3vw;
+  margin: 2em;
+}
+
+.single-image {
+  height: 20vw;
+  width: 20vw;
+  border: 0.2em solid #d8b765;
+}
+
+.album-title {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+.back-button {
+  margin-top: -5vw;
+  margin-bottom: 3vw;
+}
+
+.uploader {
+  padding-bottom: 5vw;
 }
