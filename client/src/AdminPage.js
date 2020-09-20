@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NewAlbumForm } from "./components/NewAlbumForm";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { app } from "./firebase/config";
 import { Album } from "./components/Album";
 import { Home } from "./components/Home";

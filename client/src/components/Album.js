@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouteMatch, Link } from "react-router-dom";
 import { NewPhoto } from "./NewPhoto";
+import { DetailInput } from "./NewDetails";
 import { app } from "../firebase/config";
 
 const db = app.firestore();
@@ -32,6 +33,7 @@ export const Album = () => {
             Back to <Link to="/admin">Albums</Link>
           </p>
         </header>{" "}
+        <DetailInput currentAlbum={album} />
         <footer className="uploader">
           <NewPhoto currentAlbum={album} />
         </footer>
