@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import HouseCard from "./components/HouseCard";
 import Steps from "./components/Steps";
-import UploadForm from "./components/UploadForm";
 import AdminPage from "./AdminPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

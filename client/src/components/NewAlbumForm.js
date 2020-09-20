@@ -17,7 +17,11 @@ export const NewAlbumForm = () => {
     db.collection("albums")
       .doc(albumName)
       .set({
-        name: albumName
+        name: albumName,
+        description: {
+          address: "",
+          details: ""
+        }
       });
     setAlbumName("");
   };

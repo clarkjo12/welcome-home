@@ -77,7 +77,7 @@ export default class Steps extends React.PureComponent {
               <br />
               <p>
                 It can a copy of recent bank statement, a screen shot of your
-                banking app, or the most popular option being picture of cash.
+                banking app; We are open to other alternatives as well.
               </p>
             </div>
           </div>
