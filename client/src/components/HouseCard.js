@@ -11,13 +11,16 @@ const HouseCard = () => {
   const [albums, setAlbums] = useState([]);
 
   useEffect(() => {
-    const unmount = db.collection("albums").onSnapshot(snapshot => {
-      const tempAlbums = [];
-      snapshot.forEach(doc => {
-        tempAlbums.push({ ...doc.data(), id: doc.id });
+    const unmount = db
+      .collection("albums")
+      .orderBy("createdAt", "desc")
+      .onSnapshot(snapshot => {
+        const tempAlbums = [];
+        snapshot.forEach(doc => {
+          tempAlbums.push({ ...doc.data(), id: doc.id });
+        });
+        setAlbums(tempAlbums);
       });
-      setAlbums(tempAlbums);
-    });
     return unmount;
   }, []);
 
