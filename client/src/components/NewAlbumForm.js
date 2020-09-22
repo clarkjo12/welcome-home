@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { app } from "../firebase/config";
+import { timestamp, app } from "../firebase/config";
 
 const db = app.firestore();
 
@@ -14,6 +14,7 @@ export const NewAlbumForm = () => {
     if (!albumName) {
       return;
     }
+    const createdAt = timestamp();
     db.collection("albums")
       .doc(albumName)
       .set({
@@ -21,7 +22,8 @@ export const NewAlbumForm = () => {
         description: {
           address: "",
           details: ""
-        }
+        },
+        createdAt
       });
     setAlbumName("");
   };
