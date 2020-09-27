@@ -25,7 +25,6 @@ const HouseCard = () => {
   }, []);
 
   console.log({ albums });
-
   return (
     <div>
       {albums.map(album => {
