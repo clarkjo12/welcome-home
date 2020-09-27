@@ -36,10 +36,13 @@ export const DetailInput = ({ currentAlbum }) => {
   };
   return (
     <div>
-      <p>{fireAddress}</p>
-      <p>{fireDetails}</p>
-      <form>
+      <p className="mont-bold fire-addy shadow">{fireAddress}</p>
+      <br />
+      <p className="mont-bold fire-dets">{fireDetails}</p>
+      <br />
+      <form className="input-form">
         <input
+          className="mont-bold-gray"
           type="text"
           placeholder="address"
           name="address"
@@ -47,13 +50,16 @@ export const DetailInput = ({ currentAlbum }) => {
         />
         <textarea
           type="text"
+          className="mont-bold-gray input-details"
           placeholder="description"
           value={details}
           name="details"
           onChange={e => setDetails(e.target.value)}
         />
       </form>
-      <button onClick={handleChange}>Submit</button>
+      <button className="info-submit mont-bold" onClick={handleChange}>
+        Submit
+      </button>
     </div>
   );
 };

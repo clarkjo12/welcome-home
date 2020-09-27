@@ -27,9 +27,11 @@ export const NewPhoto = ({ currentAlbum }) => {
   };
 
   return (
-    <>
-      <input type="file" onChange={onFileChange} />
-      <button onClick={onUpload}>Upload image</button>
-    </>
+    <div className="pic-submit">
+      <input className="pic-select" type="file" onChange={onFileChange} />
+      <button className="pic-button" onClick={onUpload}>
+        Upload image
+      </button>
+    </div>
   );
 };

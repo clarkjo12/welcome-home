@@ -3,6 +3,7 @@ import { useRouteMatch, Link } from "react-router-dom";
 import { NewPhoto } from "./NewPhoto";
 import { DetailInput } from "./NewDetails";
 import { app } from "../firebase/config";
+import StackGrid from "react-stack-grid";
 
 const db = app.firestore();
 
@@ -25,11 +26,11 @@ export const Album = () => {
   }, []);
 
   return (
-    <div className="album">
-      <section>
+    <div className="album ">
+      <section className="album-div">
         <header>
-          <h1 className="admin-title">{albumName}</h1>
-          <p className="back-button">
+          <h1 className="admin-title mont-bold shadow">{albumName}</h1>
+          <p className="back-button mont-bold">
             Back to <Link to="/admin">Albums</Link>
           </p>
         </header>{" "}
@@ -37,11 +38,13 @@ export const Album = () => {
         <footer className="uploader">
           <NewPhoto currentAlbum={album} />
         </footer>
-        {images.map(image => (
-          <aside key={image.name}>
-            <img className="single-image" src={image.url} alt="album" />
-          </aside>
-        ))}
+        <StackGrid columnWidth={150}>
+          {images.map(image => (
+            <aside key={image.name}>
+              <img className="single-image" src={image.url} alt="album" />
+            </aside>
+          ))}
+        </StackGrid>
       </section>
     </div>
   );
